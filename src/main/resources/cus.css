@@ -1,0 +1,44 @@
+.html-editor {
+    /*-fx-background-color: black;*/
+    /*color: lightgrey;*/
+}
+.web-view{
+    /*-fx-background-color: black;*/
+    /*-fx-blend-mode: overlay;*/
+}
+.top-toolbar{
+    /*-fx-tab-max-height: 0px;*/
+    /*-fx-pref-tile-height: 0px;*/
+    -fx-max-height: 0px;
+    -fx-pref-height: 0px;
+    -fx-arc-height: 0px;
+    -fx-fill-height: 0px;
+    -fx-fit-to-height: 0px;
+    -fx-min-height: 0px;
+    -fx-tab-min-height: 0px;
+}
+.bottom-toolbar{
+    -fx-tab-max-height: 0px;
+    -fx-pref-tile-height: 0px;
+    -fx-max-height: 0px;
+    -fx-pref-height: 0px;
+    -fx-arc-height: 0px;
+    -fx-fill-height: 0px;
+    -fx-fit-to-height: 0px;
+    -fx-min-height: 0px;
+    -fx-tab-min-height: 0px;
+}
+.html-editor-cut {
+    /*-fx-content-display: false;*/
+    /*-fx-pref-height: 3px;*/
+    /*-fx-max-height: 3px;*/
+}
+
+/*https://www.jianshu.com/p/8cdd030199f4*/
+/*https://blog.csdn.net/qq_15023917/article/details/109572000*/
+.cusblink { animation: blink 2s linear infinite;    -webkit-animation: blink 2s linear infinite;    -moz-animation: blink 2s linear infinite;    -ms-animation: blink 2s linear infinite;    -o-animation: blink 2s linear infinite;}
+@keyframes blink { 0% {opacity : 1;} 50% {opacity : 1;} 50.01% {opacity : 0;}  100% {opacity : 0;} }
+/*@keyframes blink { 0% {color: red;} 50% {color: transparent;} 100% {color: red;} }*/
+
+.cusunderline{text-decoration: underline;}
+.cusReversDisplay{color:black;background-color:lightgrey;}
